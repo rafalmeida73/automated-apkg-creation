@@ -1,16 +1,9 @@
 {
-    "decks": [
-        {
-            "dataJson": "example1.json",
-            "deckName": "example1"
-        },
-        {
-            "dataJson": "example2.json",
-            "deckName": "example2"
-        },
-        {
-            "dataJson": "example3.json",
-            "deckName": "example3"
-        }
-    ]
+  "decks": [
+    {
+      "dataJson": "dataFormat.json",
+      "deckName": "volka",
+      "batchSize": 30
+    }
+  ]
 }

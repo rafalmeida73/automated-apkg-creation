@@ -4,6 +4,8 @@
   "description": "Create automated Anki decks (apkg files) from datas in json files!",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "start:memory": "node --max-old-space-size=4096 index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
